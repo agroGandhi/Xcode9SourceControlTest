@@ -59,7 +59,13 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dBp-aE-7Ex" secondAttribute="bottom" id="xGH-wS-AF1"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="View Controller" id="tl2-Wh-eLm"/>
+                    <navigationItem key="navigationItem" title="View Controller" id="tl2-Wh-eLm">
+                        <barButtonItem key="rightBarButtonItem" title="PUSH" id="NJX-zt-ILY">
+                            <connections>
+                                <segue destination="bNS-r6-EMM" kind="show" id="OQJ-ZK-Lia"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
